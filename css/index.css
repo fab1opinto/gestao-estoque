@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #203c80;
+    width: 100%;
+    height: 80px;
+}
+
+h2 {
+    color: #fff;
+    padding: 25px 20px;
+}
+
+.container {
+    padding: 10px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.imagem {
+    max-width: 600px;
+}
+
+.img {
+    width: 100%;
+}
+
+.opcoes {
+    padding: 0px 10px;
+}
+
+.links {
+    display: flex;
+    padding: 15px 0px;
+}
+
+.icon {
+    padding: 0px 10px;
+}
+
+.icon i {
+    font-size: 3.5rem;
+    color: #203c80;
+}
+
+.link-area {
+    max-width: 400px;
+}
+
+.link-area button {
+    float: right;
+    margin-top: 10px;
+}
+
+.btn-add {
+    width: 200px;
+    height: 35px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #203c80;
+    border: none;
+}
+
+.btn-add:hover{
+    background-color: #4c81f7;
+}
+
+.btn-add a {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media screen and (max-width: 500px){
+    h2 {
+        font-size: 20px;
+    }
+    .icon i {
+        font-size: 1.5rem;
+    }
+    .link-area p {
+        font-size: 15px;
+    }
+    .btn-add {
+        font-size: 13px;
+        width: 150px;
+        height: 30px;
+    }
+}

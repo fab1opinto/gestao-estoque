@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #203c80;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar h2 {
+    color: #fff;
+    padding: 25px 20px;
+}
+
+.nav li {
+    list-style-type: none;
+    margin: 30px 20px;
+}
+
+.nav li a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav li a:hover{
+    color: #9badd6;
+}
+
+.container {
+    padding: 20px 150px;
+    line-height: 30px;
+}
+
+p {
+    font-size: 25px;
+}
+
+table {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.btn-amarelo {
+    background-color: #faf607;
+    width: 80px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0px;
+}
+
+.btn-amarelo a {
+    color: black;
+    text-decoration: none;
+}
+
+.btn-amarelo:hover {
+    background-color: #fffd7f;
+}
+
+.btn-vermelho {
+    background-color: #da1902;
+    width: 80px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-vermelho a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-vermelho:hover {
+    background-color: #de503f;
+}
+
+@media screen and (max-width: 500px) {
+    table {
+        max-width: 600px;
+    }
+    td {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .container {
+        padding: 10px 5px;
+    }
+}
